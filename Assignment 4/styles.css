@@ -1,0 +1,239 @@
+* {
+    margin: 0;
+}
+
+.body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 200px;
+    margin-right: 10px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding: 10px 15px;
+}
+
+.btn-book {
+    background: #1a73e8;
+    color: #fff;
+    padding: 10px 16px;
+    margin-left: 20px;
+}
+
+.section_1 {
+    background: url('https://static.wixstatic.com/media/nsplsh_58586865727731756a6f49~mv2_d_3000_2000_s_2.jpg/v1/fill/w_2500,h_1666,al_c/nsplsh_58586865727731756a6f49~mv2_d_3000_2000_s_2.jpg') no-repeat center center/cover;
+    padding-left: 180px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    margin-top: 80px;
+}
+
+.section_1_content {
+    text-align: left;
+    color: #fff;
+    max-width: 600px;
+}
+
+.section_1 h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.section_1 p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.btn-contact {
+    background: #ff5733;
+    color: #fff;
+    padding: 12px 24px;
+    border-radius: 0px;
+    text-decoration: none;
+    opacity: 0.6;
+    transition: 0.3s;
+}
+
+.btn-contact:hover {
+    opacity: 1
+}
+
+#contact-banner {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 85px;
+    margin-bottom: 70px;
+}
+
+.contact-info {
+    background-color: #0B2B61;
+    padding: 50px;
+}
+
+.call-now {
+    background-color: #F3923A;
+    padding: 30px;
+}
+
+.contact-info p {
+    font-size: 40px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.phone-number {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.call-now p {
+    color: #fff;
+    text-align: center;
+}
+
+.intro-head {
+    text-align: center;
+    font-size: 42px;
+    line-height: 50px;
+    font-family: 'montserrat', sans-serif;
+    font-weight: 800;
+    font-style: normal;
+
+}
+
+
+.intro-content{
+    font-size: 18px;
+    color: #676767;
+    line-height: 32px;
+    text-align: center;
+    font-family: 'montserrat', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    max-width: 700px;
+    margin: 0 auto;  
+    display: block;  
+    padding-top: 20px;  
+
+}
+
+.car-rental-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+  }
+  
+  .text-content {
+    max-width: 50%;
+    align-items: flex-start;
+    
+    
+  } 
+  
+  .text-content h2 {
+    font-size: 35px;
+    color: #060221;
+    line-height: 50px;
+    text-align:left;
+    font-weight: 800;
+    font-style: normal;
+    vertical-align: text-top;
+  }
+  
+  .text-content p {
+    color: #555555;
+    max-width: 486px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+  }
+  
+  .read-more-button {
+    background-color: #0b246b; 
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    opacity: 0.9;
+    transition: 0.3s;
+  }
+
+  .read-more-button:hover {
+    opacity: 1
+  }
+
+.tempo-rental-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+  }
+  
+  .tempo-content {
+    max-width: 50%;
+    align-items: flex-start;
+    
+    
+  } 
+  
+  .tempo-content h2 {
+    font-size: 35px;
+    color: #060221;
+    line-height: 50px;
+    text-align:left;
+    font-weight: 800;
+    font-style: normal;
+    vertical-align: text-top;
+  }
+  
+  .tempo-content p {
+    color: #555555;
+    max-width: 486px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+  }
+  
+  
+ 
